@@ -13,9 +13,10 @@ Weather Data for a specific hard-coded location is obtained from the tomorrow.IO
 The API is called every 15 minutes to update new forecast data, and a button allows for an immediate update.
 
 ## To Do ##
-To clone this and set up your own Netlify page derived from this, you will to add to environment variables
+To clone this and set up your own Netlify page derived from this, you will need to add to environment variables
 on Netlify -> Deploys -> Deploy Settings -> Build & Deploy -> Environment -> Environment Variables
 add the following two variables:
-API_TOKEN = "your_tomorrow.io_api_token"
-API_URL = "https://api.tomorrow.io/v4/timelines"
+
+# API_TOKEN = "your_tomorrow.io_api_token"
+# API_URL = "https://api.tomorrow.io/v4/timelines"
 
