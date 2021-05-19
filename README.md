@@ -17,6 +17,6 @@ To clone this and set up your own Netlify page derived from this, you will need 
 on Netlify -> Deploys -> Deploy Settings -> Build & Deploy -> Environment -> Environment Variables
 add the following two variables:
 
-# API_TOKEN = "your_tomorrow.io_api_token"
-# API_URL = "https://api.tomorrow.io/v4/timelines"
+* API_TOKEN = "your_tomorrow.io_api_token"
+* API_URL = "https://api.tomorrow.io/v4/timelines"
 
