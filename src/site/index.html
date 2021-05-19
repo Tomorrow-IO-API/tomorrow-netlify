@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather Station with tomorrow.io</title>
+</head>
+<body>
+  <div id="title1">Weather Forecast for San Francisco, CA</div>
+  <!-- Enter the coordinates for the station below, in the lat lon format
+       latitude in degrees, N is +, S is -
+       longitude in degrees, E is +, S is -
+       For example, 95W 40N is entered as +40,-90-->
+  <div id="coordinates" hidden>37.734278, -122.503727</div>
+  <table id="table" style="width: 100%; border-collapse: collapse; border-style: solid; border-color: ffffff; background-color: 444444;" border="2">
+    <tbody>
+    <tr>
+    <td style="width: 25%; text-align: center;"></td>
+    <td style="width: 15%; text-align: center;">Now</td>
+    <td style="width: 15%; text-align: center;">in 2h</td>
+    <td style="width: 15%; text-align: center;">in 4h</td>
+    <td style="width: 15%; text-align: center;">in 6h</td>
+    <td style="width: 15%; text-align: center;">in 8h</td>
+    </tr>
+    <tr>
+    <td style="width: 25%; text-align: center;">Temp</td>
+    <td id="t1" style="width: 15%; text-align: center;">- F</td>
+    <td id="t2" style="width: 15%; text-align: center;">- F</td>
+    <td id="t3" style="width: 15%; text-align: center;">- F</td>
+    <td id="t4" style="width: 15%; text-align: center;">- F</td>
+    <td id="t5" style="width: 15%; text-align: center;">- F</td>
+    </tr>
+    <tr>
+    <td style="width: 25%; text-align: center;">Wind</td>
+    <td id="s1" style="width: 15%; text-align: center;">- mph</td>
+    <td id="s2" style="width: 15%; text-align: center;">- mph</td>
+    <td id="s3" style="width: 15%; text-align: center;">- mph</td>
+    <td id="s4" style="width: 15%; text-align: center;">- mph</td>
+    <td id="s5" style="width: 15%; text-align: center;">- mph</td>
+    </tr>
+    <tr>
+    <td style="width: 25%; text-align: center;">Humidity</td>
+    <td id="h1" style="width: 15%; text-align: center;">- %</td>
+    <td id="h2" style="width: 15%; text-align: center;">- %</td>
+    <td id="h3" style="width: 15%; text-align: center;">- %</td>
+    <td id="h4" style="width: 15%; text-align: center;">- %</td>
+    <td id="h5" style="width: 15%; text-align: center;">- %</td>
+    </tr>
+    </tbody>
+  </table>
+  <div id="footnote">
+    Updated every 15 minutes.
+  </div>
+  <div>
+    <button id="refresh">Refresh Now</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
