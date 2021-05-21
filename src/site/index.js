@@ -1,7 +1,7 @@
 const api = {
   encode: () => {
     console.log("api.encode started")
-    const coords = document.getElementById("coordinated").innerHTML
+    const coords = document.getElementById("coordinates").innerHTML
     console.log("coordinates: ",coords)
     const params = "?location=" + coords + "&fields=temperature,windSpeed,humidity&units=imperial&timesteps=1h"
     console.log("params:", params)
