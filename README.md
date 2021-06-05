@@ -6,7 +6,7 @@ This is closely based on Netlify's own example provided at
 https://github.com/netlify/code-examples/tree/master/function_examples/token-hider
 and adapted to work with the tomorrow.IO weather API
 
-See the blog post at tomorrow.IO for a walkthrough of this functionality
+See the <a href="https://blog.tomorrow.io/building-a-serverless-weather-station-app-using-the-tomorrow-io-weather-api/">blog post</a> at tomorrow.IO for a walkthrough of this functionality
 
 ## Function ##
 Weather Data for a specific hard-coded location is obtained from the tomorrow.IO API
